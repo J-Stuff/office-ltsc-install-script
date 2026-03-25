@@ -18,8 +18,6 @@ function KillAnyRunningOfficeApps {
         if ($gp) {
             Stop-Process -Name "$_*" -Force
             Write-Host "$_ was closed" -ForegroundColor DarkRed
-        } else {
-            Write-Host "$_ is not running" -ForegroundColor DarkGray
         }
     }
 }
