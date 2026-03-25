@@ -11,4 +11,5 @@ Auto install script for Office 2024 LTSC
    - (See the [Microsoft Documentation](https://learn.microsoft.com/en-us/office/ltsc/2024/deploy) for detailed instructions)
 4. Upload all the files into a Shared Environment (SMB, CIFS, NFS)
 5. Configure the script variables in both powershell files as needed
+
 *These steps may change based on the way you want to deploy this. Please see the Wiki for more detailed and specific instructions*
